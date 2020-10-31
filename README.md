@@ -31,12 +31,41 @@ I made this repo to store my learning progress on Jenkins. I will be using Vagra
 </ul>
 </br>
 </br>
+
+
 <h2>To Do</h2>
 <ul>
     <li>Add Jenkins installation with Ansible</li>
     <!-- <li></li> -->
 </ul>
 </br>
+
+
+<h2>Installation</h2>
+</br>
+
+
+Install vagrant plugin that chages disk size config
+```sh
+vagrant plugin install vagrant-disksize
+```
+Start and connect to the vagrant box
+```sh
+vagrant up
+vagrant ssh
+```
+Instalando Jenkins
+```sh
+cd /vagrant/scripts
+sudo ./jenkins.sh
+```
+
+
+</br>
+
+
+
+
 
 
 
