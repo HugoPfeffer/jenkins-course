@@ -45,7 +45,7 @@ I made this repo to store my learning progress on Jenkins. I will be using Vagra
 </br>
 
 
-Install vagrant plugin that chages disk size config
+Install vagrant plugin that changes disk size config
 ```sh
 vagrant plugin install vagrant-disksize
 ```
@@ -54,7 +54,7 @@ Start and connect to the vagrant box
 vagrant up
 vagrant ssh
 ```
-Instalando Jenkins
+Install Jenkins
 ```sh
 cd /vagrant/scripts
 sudo ./jenkins.sh
