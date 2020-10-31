@@ -351,3 +351,4 @@ MigrationBackup/
 
 # .vagrant folder
 *jenkins-course/.vagrant/
+*jenkins-course/jenkins-todo-list/
